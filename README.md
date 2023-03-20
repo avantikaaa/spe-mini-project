@@ -1,1 +1,0 @@
-# spe-mini-project
