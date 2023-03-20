@@ -8,4 +8,4 @@
       shell: docker pull avantikaaa/spe-mini-project:latest
       
     - name: run container
-      shell: docker run -i -t --name calculator -d avantikaaa/spe-mini-project
+      shell: docker run -i --name calculator -d avantikaaa/spe-mini-project
