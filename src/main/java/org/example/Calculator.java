@@ -71,10 +71,10 @@ public class Calculator {
                 System.out.printf("Invalid ");
                 continue;
             }
-            logger.info("Operation:" + operation);
+            logger.info("Operation: " + operation);
             System.out.printf("Enter Number: ");
             num = sc.nextFloat();
-            logger.info("Input 1:" + num);
+            logger.info("Input 1: " + num);
             if(operation == 4){
                 System.out.printf("Enter Number: ");
                 num2 = sc.nextFloat();
