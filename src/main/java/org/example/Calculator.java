@@ -34,6 +34,7 @@ public class Calculator {
             case 3 : {
                 if(num1 <= 0){
                     logger.error("Invalid input. Input must greater than 0");
+                    return -1;
                 }
                 return Math.log(num1);
             }
@@ -68,7 +69,9 @@ public class Calculator {
         float num= 0, num2 = 0;
         while(operation != 0){
             if(operation < 0 || operation > 4){
-                System.out.printf("Invalid ");
+                System.out.print("Invalid Operation\nEnter Operation:");
+                operation = sc.nextInt();
+
                 continue;
             }
             logger.info("Operation: " + operation);

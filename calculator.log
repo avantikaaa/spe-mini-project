@@ -10,3 +10,36 @@
 2023-03-21 15:58:45.199 [main] INFO  org.example.Calculator - Operation: 2
 2023-03-21 15:58:47.444 [main] INFO  org.example.Calculator - Input 1: 3.0
 2023-03-21 15:58:47.445 [main] INFO  org.example.Calculator - Result: 6.0
+2023-03-21 19:51:50.294 [main] ERROR org.example.Calculator - Invalid input. Input must be a positive integer
+2023-03-21 19:51:50.300 [main] ERROR org.example.Calculator - Invalid input. Input must be greater than or equal to 0
+2023-03-21 19:52:55.827 [main] INFO  org.example.Calculator - Invalid input. Input must be a positive integer
+2023-03-21 19:52:55.834 [main] INFO  org.example.Calculator - Invalid input. Input must be greater than or equal to 0
+2023-03-21 19:53:15.398 [main] ERROR org.example.Calculator - Invalid input. Input must be a positive integer
+2023-03-21 19:53:15.401 [main] ERROR org.example.Calculator - Invalid input. Input must be greater than or equal to 0
+2023-03-21 19:55:39.750 [main] ERROR org.example.Calculator - Invalid input. Input must be a positive integer
+2023-03-21 19:55:39.756 [main] ERROR org.example.Calculator - Invalid input. Input must be greater than or equal to 0
+2023-03-21 19:56:24.888 [main] INFO  org.example.Calculator - Operation: 3
+2023-03-21 19:56:27.881 [main] INFO  org.example.Calculator - Input 1: 5.0
+2023-03-21 19:56:27.884 [main] INFO  org.example.Calculator - Result: 1.6094379124341003
+2023-03-21 19:57:52.309 [main] INFO  org.example.Calculator - Operation: 3
+2023-03-21 19:57:56.907 [main] INFO  org.example.Calculator - Input 1: 5.5
+2023-03-21 19:57:56.908 [main] INFO  org.example.Calculator - Result: 1.7047480922384253
+2023-03-21 20:00:06.346 [main] ERROR org.example.Calculator - Invalid input. Input must be a positive integer
+2023-03-21 20:00:06.351 [main] ERROR org.example.Calculator - Invalid input. Input must be greater than or equal to 0
+2023-03-21 20:00:27.501 [main] INFO  org.example.Calculator - Operation: 3
+2023-03-21 20:00:31.378 [main] INFO  org.example.Calculator - Input 1: -5.0
+2023-03-21 20:00:31.379 [main] ERROR org.example.Calculator - Invalid input. Input must greater than 0
+2023-03-21 20:00:31.383 [main] INFO  org.example.Calculator - Result: NaN
+2023-03-21 20:01:07.294 [main] ERROR org.example.Calculator - Invalid input. Input must be a positive integer
+2023-03-21 20:01:07.300 [main] ERROR org.example.Calculator - Invalid input. Input must be greater than or equal to 0
+2023-03-21 20:01:07.304 [main] ERROR org.example.Calculator - Invalid input. Input must greater than 0
+2023-03-21 20:01:14.889 [main] INFO  org.example.Calculator - Operation: 3
+2023-03-21 20:01:16.228 [main] INFO  org.example.Calculator - Input 1: -5.0
+2023-03-21 20:01:16.229 [main] ERROR org.example.Calculator - Invalid input. Input must greater than 0
+2023-03-21 20:03:32.725 [main] INFO  org.example.Calculator - Operation: 4
+2023-03-21 20:03:35.527 [main] INFO  org.example.Calculator - Input 1: 4.0
+2023-03-21 20:03:37.013 [main] INFO  org.example.Calculator - Input 2: 0.5
+2023-03-21 20:03:37.014 [main] INFO  org.example.Calculator - Result: 2.0
+2023-03-21 20:03:46.314 [main] ERROR org.example.Calculator - Invalid input. Input must be a positive integer
+2023-03-21 20:03:46.317 [main] ERROR org.example.Calculator - Invalid input. Input must be greater than or equal to 0
+2023-03-21 20:03:46.319 [main] ERROR org.example.Calculator - Invalid input. Input must greater than 0
