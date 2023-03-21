@@ -3,9 +3,9 @@ package org.example;
 import java.lang.Math;
 import java.util.Scanner;
 
-public class Main {
+public class Calculator {
     public static int fact(int num){
-        if(num == 1){
+        if(num == 0){
             return 1;
         }
         return fact(num-1) * num;
@@ -22,7 +22,7 @@ public class Main {
             case 3 : {
                 return Math.log(num1);
             }
-            case 4 : Math.pow(num1, num2);
+            case 4 : return Math.pow(num1, num2);
         }
 
         return 0;
@@ -55,22 +55,26 @@ public class Main {
                     System.out.printf("Enter number: ");
                     num = sc.nextFloat();
                     System.out.println(calculate(1, num));
+                    break;
                 }
                 case 2 : {
                     System.out.printf("Enter number: ");
                     num = sc.nextFloat();
                     System.out.println(calculate(2, num));
+                    break;
                 }
                 case 3 : {
                     System.out.printf("Enter number: ");
                     num = sc.nextFloat();
                     System.out.println(calculate(3, num));
+                    break;
                 }
                 case 4 : {
                     System.out.printf("Enter number: ");
                     num = sc.nextFloat();
                     num2 = sc.nextFloat();
                     System.out.println(calculate(4, num, num2));
+                    break;
                 }
                 default : System.out.print("Invalid ");
             }
