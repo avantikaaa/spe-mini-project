@@ -67,4 +67,9 @@ public class CalculatorTest {
     public void testPow4(){
         assertEquals(2, Calculator.calculate(4, 4, 0.5F), 0.001);
     }
+
+    @Test
+    public void testPow5(){
+        assertEquals(-1, Calculator.calculate(4, -4, 0.5F), 0.001);
+    }
 }  

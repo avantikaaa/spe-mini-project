@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="13" failures="0" name="CalculatorTest" time="0.739" errors="0" skipped="0">
+<testsuite tests="14" failures="0" name="CalculatorTest" time="0.956" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.18+10-post-Ubuntu-0ubuntu120.04.1"/>
@@ -61,17 +61,18 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="CalculatorTest" name="testFact1" time="0.731"/>
+  <testcase classname="CalculatorTest" name="testFact1" time="0.943"/>
   <testcase classname="CalculatorTest" name="testFact2" time="0"/>
-  <testcase classname="CalculatorTest" name="testFact3" time="0.006"/>
-  <testcase classname="CalculatorTest" name="testSqrt1" time="0"/>
+  <testcase classname="CalculatorTest" name="testFact3" time="0.007"/>
+  <testcase classname="CalculatorTest" name="testSqrt1" time="0.001"/>
   <testcase classname="CalculatorTest" name="testSqrt2" time="0"/>
   <testcase classname="CalculatorTest" name="testSqrt3" time="0"/>
-  <testcase classname="CalculatorTest" name="testLog1" time="0.001"/>
-  <testcase classname="CalculatorTest" name="testLog2" time="0"/>
+  <testcase classname="CalculatorTest" name="testLog1" time="0"/>
+  <testcase classname="CalculatorTest" name="testLog2" time="0.001"/>
   <testcase classname="CalculatorTest" name="testLog3" time="0.001"/>
   <testcase classname="CalculatorTest" name="testPow1" time="0"/>
-  <testcase classname="CalculatorTest" name="testPow2" time="0"/>
+  <testcase classname="CalculatorTest" name="testPow2" time="0.001"/>
   <testcase classname="CalculatorTest" name="testPow3" time="0"/>
-  <testcase classname="CalculatorTest" name="testPow4" time="0"/>
+  <testcase classname="CalculatorTest" name="testPow4" time="0.001"/>
+  <testcase classname="CalculatorTest" name="testPow5" time="0.001"/>
 </testsuite>

@@ -19,26 +19,30 @@ public class Calculator {
         switch (op) {
             case 1 : {
                 if(num1 < 0){
-                    logger.error("Invalid input. Input must be greater than or equal to 0");
+                    logger.info("Invalid input. Input must be greater than or equal to 0");
                     return -1;
                 }
                 return Math.sqrt(num1);
             }
             case 2 : {
                 if(num1 < 0){
-                    logger.error("Invalid input. Input must be a positive integer");
+                    logger.info("Invalid input. Input must be a positive integer");
                     return -1;
                 }
                 return fact((int) num1);
             }
             case 3 : {
                 if(num1 <= 0){
-                    logger.error("Invalid input. Input must greater than 0");
+                    logger.info("Invalid input. Input must greater than 0");
                     return -1;
                 }
                 return Math.log(num1);
             }
             case 4 : {
+                if(num1 < 0 && num2 > 0 && num2 < 1){
+                    logger.info("Invalid input. At least one of the inputs should be greater than or equal to zero");
+                    return -1;
+                }
                 return Math.pow(num1, num2);
             }
         }
